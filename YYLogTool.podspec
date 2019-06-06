@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YYLogTool'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '自定义日志库'
 
 # This description is used to generate tags and improve search results.
