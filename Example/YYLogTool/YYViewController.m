@@ -7,6 +7,7 @@
 //
 
 #import "YYViewController.h"
+#import <YYLog.h>
 
 @interface YYViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    YYLog *log = [[YYLog alloc] init];
+    [log yy_log];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - YYLogTool (0.1.0):
+    - AFNetworking (~> 2.3)
+
+DEPENDENCIES:
+  - YYLogTool (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  YYLogTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  YYLogTool: 12ac07ba78d0e36515a38cc71515b88d7c674e70
+
+PODFILE CHECKSUM: 3ba564281c3b31304eb0b494bb0cca9144c1972c
+
+COCOAPODS: 1.7.1

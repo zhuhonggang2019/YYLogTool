@@ -1,0 +1,6 @@
+framework module YYLogTool {
+  umbrella header "YYLogTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

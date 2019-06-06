@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YYLogTool'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YYLogTool.'
+  s.summary          = '自定义日志库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,11 +24,11 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/zhuhonggang2019/YYLogTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhuhonggang2019' => 'zhg_yy@163.com' }
+  s.author           = { 'zhuhonggang2019' => 'zhuhg_yy@163.com' }
   s.source           = { :git => 'https://github.com/zhuhonggang2019/YYLogTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'YYLogTool/Classes/**/*'
   
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking', '~> 2.3'
 end

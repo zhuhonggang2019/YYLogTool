@@ -1,0 +1,6 @@
+framework module Pods_YYLogTool_Tests {
+  umbrella header "Pods-YYLogTool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
