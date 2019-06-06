@@ -8,6 +8,7 @@
 
 #import "YYViewController.h"
 #import <YYLog.h>
+#import <YYFormate.h>
 
 @interface YYViewController ()
 
@@ -21,6 +22,9 @@
 	// Do any additional setup after loading the view, typically from a nib.
     YYLog *log = [[YYLog alloc] init];
     [log yy_log];
+
+    YYFormate *formate = [[YYFormate alloc] init];
+    [formate yy_formate:10.98];
 }
 
 - (void)didReceiveMemoryWarning

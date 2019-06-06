@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YYFormate.h"
 #import "YYLog.h"
 
 FOUNDATION_EXPORT double YYLogToolVersionNumber;
